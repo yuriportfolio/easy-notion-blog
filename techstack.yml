@@ -1,11 +1,12 @@
 repo_name: yuriportfolio/easy-notion-blog
 report_id: 534ec8329888f260c84282b4dc289343
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T19:55:00+00:00'
+timestamp: '2024-01-04T15:12:59+00:00'
 requested_by: otoyo
 provider: github
 branch: main
-detected_tools_count: 28
+detected_tools_count: 30
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog
   detection_source: Repo Metadata
 - name: Next.js
   description: 'A small framework for server-rendered universal JavaScript apps '
@@ -45,7 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2021-11-03 08:57:43.000000000 Z
@@ -58,6 +62,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/package.json
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2021-11-03 08:57:43.000000000 Z
@@ -71,7 +76,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -84,6 +89,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/package.json
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2021-11-03 08:57:43.000000000 Z
@@ -95,6 +101,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -104,7 +111,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test.yml"
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/.github/workflows/lint.yml
+  detection_source: ".github/workflows/lint.yml"
   last_updated_by: otoyo
   last_updated_on: 2022-02-11 04:32:01.000000000 Z
 - name: Jest
@@ -117,7 +125,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2021-11-03 08:57:43.000000000 Z
@@ -131,7 +139,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -143,6 +151,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: yarn.lock
   last_updated_by: otoyo
   last_updated_on: 2021-11-03 08:57:43.000000000 Z
@@ -154,6 +163,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/package.json
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2021-11-03 08:57:43.000000000 Z
@@ -167,7 +177,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -181,7 +191,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -190,6 +200,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/package.json
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -198,6 +209,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/package.json
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -211,7 +223,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -226,7 +238,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -240,7 +252,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -254,7 +266,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -268,7 +280,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -282,10 +294,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2021-11-03 08:57:43.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: otoyo
+  last_updated_on: 2022-12-18 04:26:27.000000000 Z
 - name: jest-environment-jsdom
   description: Delightful JavaScript Testing
   package_url: https://www.npmjs.com/jest-environment-jsdom
@@ -296,7 +322,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: otoyo
+  last_updated_on: 2022-12-18 04:26:27.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -310,7 +350,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17480/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -324,7 +364,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -338,7 +378,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
@@ -352,7 +392,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17489/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/yuriportfolio/easy-notion-blog/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: otoyo
   last_updated_on: 2022-12-18 04:26:27.000000000 Z
