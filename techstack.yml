@@ -2,7 +2,7 @@ repo_name: yuriportfolio/easy-notion-blog
 report_id: 534ec8329888f260c84282b4dc289343
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:07:23+00:00'
+timestamp: '2024-02-29T18:21:55+00:00'
 requested_by: otoyo
 provider: github
 branch: main
@@ -41,7 +41,7 @@ tools:
   detection_source_url: https://github.com/yuriportfolio/easy-notion-blog
   detection_source: Repo Metadata
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   version: 13.0.7
   open_source: true
@@ -130,7 +130,7 @@ tools:
   last_updated_by: otoyo
   last_updated_on: 2021-11-03 08:57:43.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.8.1
   license: MIT
